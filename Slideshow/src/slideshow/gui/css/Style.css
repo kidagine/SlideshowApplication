@@ -1,0 +1,92 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 9, 2019, 7:23:21 PM
+    Author     : Kiddo
+*/
+
+.buttonPrevious{			
+    -fx-background-color: transparent;
+    -fx-background-image: url("../images/Previous.PNG");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position:center;
+    -fx-background-size: 22 22;
+}
+.buttonPrevious:hover{
+    -fx-background-image: url("../images/Previous.PNG");
+    -fx-background-size: 26 26;
+}
+.buttonPrevious:pressed{
+    -fx-background-image: url("../images/Previous.PNG");
+    -fx-background-size: 22 22;
+}
+
+.buttonNext{			
+    -fx-background-color: transparent;
+    -fx-background-image: url("../images/Next.PNG");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position:center;
+    -fx-background-size: 22 22;
+}
+.buttonNext:hover{
+    -fx-background-image: url("../images/Next.PNG");
+    -fx-background-size: 26 26;
+}
+.buttonNext:pressed{
+    -fx-background-image: url("../images/Next.PNG");
+    -fx-background-size: 22 22;
+}
+
+.buttonLoadImages{
+    -fx-background-color: #e30337;
+    -fx-text-fill: white;
+}
+.buttonLoadImages:hover{
+    -fx-background-color: #c50230;
+}
+.buttonLoadImages:selected{
+    -fx-background-color: #d30334;
+}
+
+.buttonSlideshowTab{
+    -fx-background-color: white;
+}
+.buttonSlideshowTab:hover{
+    -fx-background-color: #e0e0e0;
+}
+.buttonSlideshowTab:selected{
+    -fx-background-color: #e30337;
+}
+
+.togglePlay{
+    -fx-background-color: transparent;
+    -fx-background-image: url("../images/Play.PNG");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position:center;
+    -fx-background-size: 38 38;
+}
+.togglePlay:hover{
+    -fx-background-image: url("../images/Play.PNG");
+    -fx-background-size: 42 42;
+}
+.togglePlay:selected{
+    -fx-background-image: url("../images/Stop.png");
+    -fx-background-size: 38 38;
+}
+.togglePlay:selected:hover{
+    -fx-background-image: url("../images/Stop.png");
+    -fx-background-size: 42 42;
+}
+
+.toggleSlideshowTab{
+    -fx-background-color: white;
+}
+.toggleSlideshowTab:hover{
+    -fx-background-color: #e0e0e0;
+}
+.toggleSlideshowTab:selected{
+    -fx-background-color: #e30337;
+}
